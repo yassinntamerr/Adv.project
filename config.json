@@ -1,0 +1,39 @@
+{
+  "system": {
+    "csv_file": "StudentPicsDataset.csv",
+    "photos_directory": "student_photos",
+    "screenshots_directory": "screenshots",
+    "recognition_log": "recognition_log.json"
+  },
+  "recognition": {
+    "confidence_threshold": 0.6,
+    "model_name": "VGGFace2",
+    "enforce_detection": false,
+    "max_alternative_matches": 3
+  },
+  "camera": {
+    "camera_index": 0,
+    "frame_width": 1280,
+    "frame_height": 720,
+    "fps": 30,
+    "flip_frame": true
+  },
+  "display": {
+    "window_width": 1200,
+    "window_height": 800,
+    "font_scale": 1.2,
+    "text_thickness": 2,
+    "show_fps": true
+  },
+  "performance": {
+    "enable_gpu": false,
+    "batch_processing": false,
+    "cache_embeddings": true
+  },
+  "features": {
+    "record_attendance": true,
+    "save_screenshots": true,
+    "log_to_file": true,
+    "console_output": true
+  }
+}
